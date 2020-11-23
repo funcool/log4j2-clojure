@@ -3,6 +3,8 @@
 This library exposes the appender implementation for log4j2 that calls
 a user defined function for each log.
 
+Requires JDK >= 11.
+
 ## Getting Started ##
 
 Add dependencies:
@@ -45,7 +47,7 @@ entry.
 
 Example:
 
-```
+```clojure
 (ns some.ns)
 
 (defn print-log
